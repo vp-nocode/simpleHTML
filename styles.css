@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #4CAF50;
+}
+
+.image-row {
+    display: flex;
+    gap: 20px; /* Промежуток между изображениями */
+}
+
+.image-row img {
+    width: 100%;
+    max-width: 400px; /* Максимальная ширина изображения */
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
